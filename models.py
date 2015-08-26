@@ -54,7 +54,7 @@ class TV(SizeMixin, models.Model):
     """
     TV.
 
-    tv = TV(size=20, color='blue')
+    tv = TV(size=20, resolution='1920 x 1440')
     """
 
     resolution = models.CharField('resolution')
